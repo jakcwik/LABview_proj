@@ -11,17 +11,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="CameraAcq.vi" Type="VI" URL="../CameraAcq.vi"/>
-		<Item Name="Cluster1TypeDef.ctl" Type="VI" URL="../Cluster1TypeDef.ctl"/>
-		<Item Name="Controller.vi" Type="VI" URL="../Controller.vi"/>
-		<Item Name="EnumTypeDef.ctl" Type="VI" URL="../EnumTypeDef.ctl"/>
-		<Item Name="GUI.vi" Type="VI" URL="../GUI.vi"/>
-		<Item Name="GV_exit.vi" Type="VI" URL="../GV_exit.vi"/>
-		<Item Name="GV_obraz.vi" Type="VI" URL="../GV_obraz.vi"/>
-		<Item Name="GV_PickCam.vi" Type="VI" URL="../GV_PickCam.vi"/>
-		<Item Name="GV_StartStop.vi" Type="VI" URL="../GV_StartStop.vi"/>
-		<Item Name="GV_TakePhoto.vi" Type="VI" URL="../GV_TakePhoto.vi"/>
-		<Item Name="SM_GUI.ctl" Type="VI" URL="../SM_GUI.ctl"/>
+		<Item Name="TX.vi" Type="VI" URL="../TX.vi"/>
+		<Item Name="TX_CamAcqModule.vi" Type="VI" URL="../TX_CamAcqModule.vi"/>
+		<Item Name="TX_Cluster1TypeDef.ctl" Type="VI" URL="../TX_Cluster1TypeDef.ctl"/>
+		<Item Name="TX_Controller.vi" Type="VI" URL="../TX_Controller.vi"/>
+		<Item Name="TX_EnumTypeDef.ctl" Type="VI" URL="../TX_EnumTypeDef.ctl"/>
+		<Item Name="TX_TakePhotoModule.vi" Type="VI" URL="../TX_TakePhotoModule.vi"/>
+		<Item Name="TX_TCP_Module.vi" Type="VI" URL="../TX_TCP_Module.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -58,6 +54,7 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
+				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -71,7 +68,6 @@
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Control 3.ctl" Type="VI" URL="../Control 3.ctl"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -81,6 +77,7 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="TX_Control 3.ctl" Type="VI" URL="../TX_Control 3.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
